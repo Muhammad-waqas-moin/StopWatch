@@ -1,0 +1,116 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+}
+.main_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  width: 70%;
+  border: 1px solid #313131;
+  box-shadow: 0 0 40px 5px rgb(255 255 255 / 15%);
+}
+.heading_div h1 {
+  color: #eee;
+  font-family: "Press Start 2P";
+  border-bottom: 10px solid #313131;
+  padding-bottom: 10px;
+  font-size: 3rem;
+}
+.main_items {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.main_items h2 {
+  color: #eee;
+  font-family: "Press Start 2P";
+  font-size: 5em;
+  width: 80%;
+}
+.button_container {
+  padding-top: 30px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.my_button {
+  color: #eee;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid #313131;
+  font-family: "Press Start 2P";
+  box-shadow: 0 0 40px 5px rgb(255 255 255 / 15%);
+}
+
+/* #sec {
+  border: 1px solid red;
+  width: 30%;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+/*******************************************************************************8888*/
+
+/************************************/
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: cursive;
+}
+body {
+  background: url(bg3.gif) no-repeat;
+  background-size: cover;
+  color: white;
+}
+header {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+}
+.heading h1 {
+  color: lightsteelblue;
+}
+h2 {
+  font-family: cursive;
+  display: inline-block;
+  padding: 10px 35px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(150, 206, 60);
+}
+.name h2 {
+  padding: 10px 20px;
+  font-size: 30px;
+  color: lightgreen;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border: 3px soldi white;
+  border-radius: 50px;
+  background: #202020;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-size: 25px;
+  margin-top: 10px;
+} */

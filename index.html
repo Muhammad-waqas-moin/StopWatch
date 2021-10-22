@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="main_div">
+        <div class="heading_div">
+          <h1>Stop Watch</h1>
+        </div>
+        <div class="main_items">
+          <h2 id="min">0<span>:</span></h2>
+          <h2 id="sec">0<span>:</span></h2>
+          <h2 id="milisec">0</h2>
+        </div>
+        <div class="button_container">
+          <button
+            type="button"
+            class="btn btn-dark my_button"
+            id="btn_start"
+            onclick="start()"
+          >
+            Start
+          </button>
+          <button
+            type="button"
+            class="btn btn-dark my_button"
+            id="btn_stop"
+            onclick="stop()"
+          >
+            Stop
+          </button>
+          <button
+            type="button"
+            class="btn btn-dark my_button"
+            id="btn_reset"
+            onclick="reset()"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stop watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="heading">
+        <h1>JAVASCRIPT STOP WATCH PROJECT</h1>
+      </div>
+      <div class="dial">
+        <h2 id="min">0</h2>
+        <h2 id="sec">0</h2>
+        <h2 id="msec">0</h2>
+      </div>
+      <div class="name">
+        <h2>Min</h2>
+        <h2>Sec</h2>
+        <h2>Msec</h2>
+      </div>
+      <div class="function">
+        <button id="start" onclick="start()">start</button>
+        <button id="stop" onclick="stop()">stop</button>
+        <button id="reset" onclick="reset()">reset</button>
+      </div>
+      <script src="app.js"></script>
+    </header>
+  </body>
+</html> -->
